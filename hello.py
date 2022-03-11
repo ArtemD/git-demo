@@ -13,5 +13,7 @@ def hello():
     """ Hello World page """
     return 'Hello World!'
 
+# Artem has gained a lot of weight during covid-19
+
 # Run the application in debug mode
 app.run(host='0.0.0.0', port=8000)
