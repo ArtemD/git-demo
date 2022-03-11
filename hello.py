@@ -8,6 +8,8 @@ def index():
     """ Main page """
     return 'Web App with Python Flask!'
 
+# This is a test comment
+
 @app.route('/api/v1/hello')
 def hello():
     """ Hello World page """
