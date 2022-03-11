@@ -1,5 +1,7 @@
 from flask import Flask
 
+password = 'password'
+
 # Create the application object
 app = Flask(__name__)
 
@@ -7,6 +9,11 @@ app = Flask(__name__)
 def index():
     """ Main page """
     return 'Web App with Python Flask!'
+
+@app.route('/hello')
+def hello():
+    """ Hello, World """
+    return 'Hello, World!'
 
 @app.route('/api/v1/hello')
 def hello():
